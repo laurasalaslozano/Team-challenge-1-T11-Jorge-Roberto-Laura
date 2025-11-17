@@ -4,7 +4,7 @@ from variables import dimension_tablero
 # Variable fija de las letras de las columnas
 LETRAS_COLUMNAS = 'ABCDEFGHIJ'[:dimension_tablero]
 
-# ¡¡AQUÍ ESTABA EL ERROR GORDO!! → quitamos los espacios de delante
+
 def imprimir_bienvenida():
     #Instrucciones del juego.
     print("\nHola, para disparar, introduce las coordenadas de la siguiente forma: Letra,Número (ej: A,3 o E 9).")
