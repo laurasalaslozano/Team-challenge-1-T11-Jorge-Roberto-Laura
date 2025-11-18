@@ -8,7 +8,7 @@ LETRAS_COLUMNAS = 'ABCDEFGHIJ'[:dimension_tablero]
 def imprimir_bienvenida():
     #Instrucciones del juego.
     print("\nHola, para disparar, introduce las coordenadas de la siguiente forma: Letra,Número (ej: A,3 o E 9).")
-    print("Las columnas van de la A a la J, y los números del 1 al 10")   # ← arreglada la barra
+    print("Las columnas van de la A a la J, y los números del 1 al 10")   
 
 
 def pedir_coordenadas(): 
